@@ -25,6 +25,6 @@ echo "Largest fire was $LARGEST and burned $LARGESTACRES"
 # print out the years - change the code in $(echo 1990) to print out the years (hint - how did you get MINYEAR and MAXYEAR?
 for YEAR in $(echo 1990) 
 do
-      TOTAL=$(grep ... | awk ...)
+#      TOTAL=$(grep ... | awk ...)
       echo "In Year $YEAR, Total was $TOTAL"
 done
