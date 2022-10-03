@@ -18,12 +18,14 @@ TOTALFILECOUNT=0
 echo "Total number of files: $TOTALFILECOUNT"
 
 # print out the number of fire in each year
+echo "Number of fires in each year follows:"
+
 
 # print out the name of the largest file use the GIS_ACRES and report the number of acres
 echo "Largest fire was $LARGEST and burned $LARGESTACRES"
 
 # print out the years - change the code in $(echo 1990) to print out the years (hint - how did you get MINYEAR and MAXYEAR?
-for YEAR in $(echo 1990) 
+for YEAR in $(echo 1990)
 do
 #      TOTAL=$(grep ... | awk ...)
       echo "In Year $YEAR, Total was $TOTAL"
