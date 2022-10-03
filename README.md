@@ -11,7 +11,8 @@ HW2 - explore CalFire data
    * Print out the total acreage burned in each year.
      * _hint_ you can simply the file by using cut `cut -d, -f2,13 ...` to get the columns you need and awk to accumulate `awk -F',' '{sum+=$2;} END{print sum;}'`
      *  you can have your script filter out just the rows for a given year and add up the numbers for it? This will be easiest with a loop. Think about
-     ```for YEAR in $(GET THE YEARS)
+     ```
+        for YEAR in $(GET THE YEARS)
         do
            TOTAL=$(grep ... | awk ...)
            echo "In Year $YEAR, Total was $TOTAL"
