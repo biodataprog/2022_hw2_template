@@ -15,7 +15,7 @@ echo "This report has the years: $MINYEAR-$MAXYEAR"
 # print out the total number of fires (remember to remove the header line)
 TOTALFILECOUNT=0
 # put your code here to update this variable
-echo "Total number of files: $TOTALFILECOUNT"
+echo "Total number of calfire: $TOTALFILECOUNT"
 
 # print out the number of fire in each year
 echo "Number of fires in each year follows:"
